@@ -1,0 +1,111 @@
+
+.banner-image {
+/*to set background image as well as height of the first image present at home screen*/
+    background-image: url('res/home_page/banner-home.jpg');
+    background-size: cover;
+    height: 500px;
+  }
+
+  .backgroundImg{
+    background-image: url("res/contact\ us.jpg");
+  }
+
+
+  
+  .hoverAction:hover{    /* to add special effects to the navbar items*/
+    background: black;
+    font-size: x-large;
+    
+  }
+
+  .text_white{ /*to give color to the text at the banner*/
+    color: aliceblue;
+  }
+
+  .card{  /* to alter cards*/
+    margin-top: 20px;
+  }
+
+  
+  .card-title{ /*to align topic title to center*/
+    align-items: center;
+  }
+
+
+  .viewAllLink{  /*to style view all link in a home page*/
+    text-align: left;
+
+  }
+
+  #abt{   /*to style image of palakkad at about section*/
+    width :200px;
+    height:  180px;
+  }
+
+  .bgcolorPkd{  /* to give color to the about palakkad section in home page*/
+    background-color:bisque;
+  }
+
+  .card{  /* to disable border of cards*/
+    border: 0px;
+ 
+  } 
+  
+
+  #contact{  /*to give clor to contact in homePage*/
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #contact:hover{  /*to add styling to contact Part*/
+    color: yellow;
+    font-size: x-large;
+  }
+
+  #active{  /*give color to active links*/
+    color:gold;
+  }
+
+  #anchor-text{   /*to take off underline from link texts*/
+    text-decoration :none;
+  }
+
+  #destImg{ /*to make images of webpages for seprate pages responsive*/
+    
+    width: 100%;
+    height: auto;
+  }
+
+  .bg{ /* to set bgcolor of navbar*/
+    background-color: #778899;
+  }
+
+  #foods{
+    background-color: 	#DCDCDC;
+}
+
+.form-contact{
+  border-style: none;
+  width: 25em;
+}
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  /**/
+  /**/
+  /**/
+  /**/
+  /**/

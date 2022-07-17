@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js"></script>
+
+    <title>Reach us</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark text-primary bg-dark">
+            <!-- Image and text -->
+            <nav class="navbar navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="res/logo.jfif" width="45" height="45" class="d-inline-block align-top" alt="">
+                    <i>G I R I J A <b>T R A V E L S</b> </i>
+                </a>
+            </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Cuisines
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="molakushyam.html">Mulakishyam</a>
+                            <a class="dropdown-item" href="olan.html">Olan</a>
+                            <a class="dropdown-item" href="erissery.html">Erissery</a>
+                            <a class="dropdown-item" href="injipuli.html">Injipuli</a>
+                            <a class="dropdown-item" href="on loading.html">Rasam</a>
+                            <a class="dropdown-item" href="on loading.html">Kozhukatta</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container mt-5 text-center p-5">
+            <h1>Let's talk about Palakkad !</h1>
+            <br>
+            <p>Have any doubts & queries about Palakkad ? <br><br>Feel free to message us. <sup>*</sup></p>
+            <div class="row p-5">
+                <div class="col-12 col-md-6 mt-5"><img src="res/World.png" alt=""></div>
+                <div class="col-12 col-md-6 mt-5">
+
+                    <form action="submit" onsubmit="sendEmail(); reset(); return false">
+                        <input type="text" name="username" id="name" class="form-contact"
+                            placeholder="Name or Nickname">
+                        <p id="nameError" style="color: red;"></p><br>
+
+                        <input type="email" name="mail" id="email" class="form-contact" placeholder="email id"
+                            required> <br><br>
+
+                        <textarea name="" class="form-contact" id="message" cols="10" rows="5"
+                            placeholder="Type your queries and messages here"></textarea>
+                        <p id="msgError" style="color: red"></p>
+                        <br>
+
+                        <button type="submit" class="form-contact">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center"> *We do reply your queries and messages as early as possible(in less than 24
+                        hrs) <br>If any delay is caused it will be due to lack of information and we are searching over
+                        it</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--smtpjs cdn... this is used to send data to the email-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
